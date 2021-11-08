@@ -1,0 +1,30 @@
+.menu{
+    list-style-type: none ;
+    text-decoration: none;
+    background-color: sandybrown;
+    width: 60%;
+    padding: 5px 5px;
+    display: flex;
+    }
+.itemMenu a{
+    width: 200px;
+    height: 30px;
+    padding: 5px 5px;
+    font: 18px Georgia;
+    text-decoration: none;
+    background-color: sandybrown;
+    color: snow;
+    margin:0px;
+    list-style-position:inside;
+    margin-left: auto;
+}
+.itemMenu a:hover {
+    text-decoration: none; 
+    color: #fff;   
+    background-color: red;
+}
+ul li{
+    display: inline;
+    list-style-type: none ;
+    list-style-position:inside;
+}

@@ -1,0 +1,23 @@
+.menu{
+    list-style-type: none ;
+    text-decoration: none;
+}
+.itemMenu a{
+    border: 3px solid black;
+    width: 170px;
+    height: 30px;
+    padding: 5px 5px  5px;
+    font: 20px Georgia;
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 5px;
+    }
+.itemMenu a:hover {
+    text-decoration: none; 
+    color: #fff;   
+    background-color: rgb(87, 86, 86);
+}
+ul li{
+    display: inline;
+    list-style-type: none ;
+}

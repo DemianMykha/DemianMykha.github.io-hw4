@@ -1,0 +1,42 @@
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 30px;
+    border: 1px solid black ;
+}
+.field > * {
+    border: 1px solid black ;
+    flex: 1 1 auto;
+}
+.field-top > *,
+.field-bottom > * {
+    
+    height: 200px;
+}
+
+.field-center > * {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 400px;
+}
+.field {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.left{
+    float: left;
+    width: 25%;;
+    
+}
+.center {
+    width: 70%;
+}
+
+.right {
+    float: right ;
+    width: 25%;
+}

@@ -1,0 +1,21 @@
+.menu{
+    list-style-type: none ;
+    
+}
+.itemMenu a{
+    border: 3px solid rgb(87, 86, 86);
+    width: 170px;
+    height: 30px;
+    padding: 5px 5px  5px;
+    font: 20px Georgia;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+    background-color: rgb(87, 86, 86);
+}
+.itemMenu a:hover {
+    text-decoration: none; 
+    color: rgb(87, 86, 86);   
+    background-color: white;
+ }
